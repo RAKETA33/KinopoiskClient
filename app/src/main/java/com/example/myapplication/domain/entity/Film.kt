@@ -2,7 +2,7 @@ package com.example.myapplication.domain.entity
 
 data class Film(
     val kinopoiskId: Int,
-    val nameRu: String,
+    val nameRu: String?,
     val countries: List<Country>,
     val genres: List<Genre>,
     val ratingKinopoisk: Float,
